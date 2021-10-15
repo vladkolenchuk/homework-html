@@ -1,0 +1,79 @@
+body {
+    background-image: url(../3.jpg);
+    background-repeat: no-repeat
+}
+
+.avatar {
+
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    border: 3px solid black;
+    border-radius: 35px;
+
+}
+
+
+img {
+    transition: 0.4s;
+}
+
+img:hover {
+    transform: scale(1.04);
+
+}
+
+.line {
+    margin: 10px 300px;
+    width: 1200px;
+    height: 3px;
+    background-color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    border-radius: 3px;
+}
+
+h1 {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    color: chocolate;
+
+}
+
+h2 {
+    margin: 30px 600px 0px 300px;
+    color: #80775b;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+ul {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+ul li {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+p {
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+ol {
+    margin-top: 20px;
+    padding-left: 55px;
+}
+
+ol li {
+    padding-top: 10px;
+    font-size: 17px;
+    color: grey;
+    font-weight: 600;
+}
