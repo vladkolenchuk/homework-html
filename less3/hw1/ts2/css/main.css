@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+}
+.flx{
+    width: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+
+    height: 100px;
+    background-color: #2f51ad;
+
+}
+
+.nav{
+
+    height: 75px;
+    background-color: #021a59;
+
+}
+.container{
+    display: flex;
+    flex-grow: 1;
+    height: 350px;
+}
+.main,.aside{
+    width: 0;
+    height: 100%;}
+.main{
+    background-color: #3ef6f1;
+    flex-grow: 2;
+}
+.aside{
+    background-color: #274ada;
+    flex-grow: 1;
+}
+
+.footer{
+
+    height: 60px;
+    background-color: #758fce;
+
+}
