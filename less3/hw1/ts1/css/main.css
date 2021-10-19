@@ -21,7 +21,6 @@
 .box {
     background-color: #8f8d8d;
     border-radius: 5px;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,9 +35,7 @@
 
 }
 .b,.c{
-
     height: 65%;
-
 }
 .b {
     width: 65%;
