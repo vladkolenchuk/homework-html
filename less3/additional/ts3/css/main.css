@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    margin: 20px;
+    width: 1000px;
+    height: 1520px;
+    display: flex;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 25%;
+    border-top: 5px dashed black;
+    border-bottom: 5px dashed black;
+    border-left: 5px dashed black;
+    align-items: center;
+    row-gap: 20px;
+    padding-top: 20px;
+}
+
+.col1:first-child {
+    margin-bottom: 70px;
+}
+
+.col1 {
+    width: 90%;
+    height: 40px;
+    background-color: rgba(143, 141, 141, 0.35);
+}
+
+.wrapper {
+
+    width: 75%;
+    border: 5px solid black;
+    margin-left: 5px;
+}
+
+.block1 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 38px;
+    border-bottom: 5px solid black;
+}
+
+.coli {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(143, 141, 141, 0.35);
+}
+
+.block3 {
+    padding: 30px;
+    height: 300px;
+    border-bottom: 5px solid black;
+}
+
+.content {
+    height: 100%;
+    background-color: rgba(143, 141, 141, 0.35);
+}
+
+.block4 {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+    border-bottom: 5px solid black;
+    padding: 30px;
+}
+
+.col2 {
+    width: 45%;
+    height: 200px;
+    background-color: rgba(143, 141, 141, 0.35);
+}
+
+.block5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    border-bottom: 5px solid black;
+
+}
+
+.col3 {
+    width: 45%;
+    height: 70px;
+    background-color: rgba(143, 141, 141, 0.35);
+}
+
+.col__mini {
+    width: 100px;
+    height: 25px;
+    background-color: rgba(143, 141, 141, 0.35);
+}
+
+.block6 {
+    display: flex;
+    border-bottom: 5px solid black;
+    height: 200px;
+}
+
+.mini__blocks {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    row-gap: 20px;
+    border-right: 5px solid black;
+}
+
+.col4 {
+    width: 90%;
+    height: 50px;
+    background-color: rgba(143, 141, 141, 0.35);
+}
+.block__max{
+    padding: 20px;
+    width: 50%;
+
+}
+.block7 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 10px;
+}
+
+.wide {
+    width: 90%;
+    height: 20px;
+    background-color: rgba(143, 141, 141, 0.35);
+
+}
+
+.narrow {
+    width: 20%;
+    height: 20px;
+    background-color: rgba(143, 141, 141, 0.35);
+}
