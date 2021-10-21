@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 10px 10px}
+.header, .container__menu, .container__post>div, .footer{
+    width: 500px;
+    border: 2px solid black;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+
+    background-color: yellow;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.container__menu{
+    background-color: pink;
+    align-self: stretch;
+    width: 37%;
+}
+.container__post {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.container__post > div {
+    width: 100%;
+    height: 48%;
+    background-color: #2f51ad;
+
+}
+
+.footer{
+    background-color: #e8e874;
+    height: 80px;
+}

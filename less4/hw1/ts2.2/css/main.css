@@ -1,0 +1,38 @@
+*{box-sizing: content-box;
+    margin: 0;
+}
+body{
+    margin: 10px;
+}
+
+.widgets, .container>div,.contact {
+    color: white;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.widgets{
+    height: 200px;
+    background-color: #2f51ad;
+    margin-bottom: 10px;
+}
+.container{
+    width: 500px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.container div{
+    width: 32%;
+    height: 100%;
+    background-color: #021a59;
+}
+.contact{
+    height: 400px;
+    background-color: #2f51ad;
+}
