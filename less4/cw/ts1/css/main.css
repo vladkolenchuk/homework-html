@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Block1*/
+
+
+.block1 {
+    background-color: #CBD8E1;
+    height: 200px;
+    width: 600px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid #93B9C9;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 96%;
+    height: 90%;
+}
+
+
+.container__upper, .container__post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__upper > div, .post > div {
+    background-color: #0F2A3D;
+}
+
+.container__upper {
+    width: 15%;
+    height: 7px;
+    margin-bottom: 12px;
+}
+
+.container__upper > div {
+    height: 100%;
+    border-radius: 40px;
+}
+
+.container__upper > div:nth-child(1) {
+    width: 60%;
+}
+
+.container__upper > div:nth-child(2) {
+    width: 30%;
+}
+
+.container__post {
+    flex-wrap: wrap;
+    width: 94%;
+    height: 120px;
+}
+
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 23%;
+    height: 100%;
+    column-gap: 7px;
+}
+
+.post > div:nth-child(1) {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.post > div:nth-child(2), .post > div:nth-child(3) {
+    height: 7px;
+    border-radius: 20px;
+}
+
+.post > div:nth-child(2) {
+    width: 60%;
+}
+
+.post > div:nth-child(3) {
+    width: 20%;
+}
+
+/*Block2*/
+
+.block2{
+    background-color: #0F2A3D;
+    height: 200px;
+    width: 600px;
+}
+
+.block2__wrap{
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
+.block2__info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 30%;
+    height: 80%;
+    border: 2px solid #0F2A3D;
+    background-color: #0F2A3D;
+    padding: 12px;
+    column-gap: 5px;
+    transition: 0.4s;
+}
+.block2__info:hover{
+    border: 2px solid #93B9C9;
+    transform: scale(1.04);
+}
+.block2__info>div{
+    background-color: #CBD8E1;
+}
+.block2__info>div:nth-child(1){
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.block2__info>div:nth-child(2),.block2__info>div:nth-child(3){
+    width: 45px;
+    height: 6px;
+    border-radius: 10px;
+}
+.block2__info>div:nth-child(4),.block2__info>div:nth-child(5),.block2__info>div:nth-child(6){
+    width: 25px;
+    height: 4px;
+    border-radius: 10px;
+}
+
