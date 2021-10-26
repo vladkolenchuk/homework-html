@@ -50,7 +50,7 @@ table {
 }
 
 .header {
-    background: url("/less6/img/bg.png") no-repeat center/cover;
+    background: url("../img/bg.png") no-repeat center/cover;
     height: 100vh;
 }
 
@@ -199,3 +199,148 @@ table {
 .header__wrap .header__btn {
     margin-top: 21px;
 }
+
+/*History*/
+
+.history {
+
+    height: 1000px;
+}
+
+.history__inner {
+    position: relative;
+}
+
+.history__top {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: -170px;
+    height: 328px;
+    column-gap: 35px;
+}
+
+.history__block {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px 5px;
+
+}
+
+.history__block-text {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+
+}
+
+.history__block-text span {
+    color: #BC9060;
+}
+
+.history__block-text:nth-child(2) {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    color: #2C2C2C;
+}
+
+.history__block-text:nth-child(3) {
+    color: #656363;
+}
+
+.history__bottom{
+    padding-top: 372px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.history__main{
+    width: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.history__tittle{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+.history__tittle span{
+    color: #BC9060;
+    padding-left: 8px;
+}
+.history__main p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+    margin-bottom: 39px;
+
+}
+.history__stats{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    }
+.stat span{
+    width: 84px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+.stat  {
+    margin-top: 2px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.history__imgs{
+    position: relative;
+}
+.history__image{
+    position: absolute;
+}
+.history__image:nth-child(1) {
+    z-index: 4;
+    top: 0px;
+    right: 0px;
+}
+.history__image:nth-child(2) {
+    z-index: 4;
+    top: 230px;
+    left: 2px;
+}
+.history__image:nth-child(3) {
+    left: -127px;
+    top: 0px;
+}
+
+
+
