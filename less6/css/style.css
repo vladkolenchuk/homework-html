@@ -209,6 +209,7 @@ table {
 
 .history__inner {
     position: relative;
+
 }
 
 .history__top {
@@ -322,6 +323,7 @@ table {
 }
 
 .history__imgs{
+    width: 250px;
     position: relative;
 }
 .history__image{
@@ -330,12 +332,12 @@ table {
 .history__image:nth-child(1) {
     z-index: 4;
     top: 0px;
-    right: 0px;
+    right: 217px;
 }
 .history__image:nth-child(2) {
     z-index: 4;
     top: 230px;
-    left: 2px;
+    left: 31px;
 }
 .history__image:nth-child(3) {
     left: -127px;
