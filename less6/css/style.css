@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: url("/less6/img/bg.png") no-repeat center/cover;
+    height: 100vh;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.header__logo img {
+
+    width: 100px;
+}
+
+.header__menu, .header__btn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.menu__btns {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 23px;
+    height: 51px;
+    align-items: center;
+    border-right: 1px solid #FFFFFF;
+}
+
+
+.menu__btns div:nth-child(5) {
+    width: 15px;
+    height: 15px;
+    margin-right: 21px;
+}
+
+.menu__contact {
+    margin-left: 32px;
+    max-width: 154px;
+    margin-right: 45px;
+}
+
+.menu__nmb {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.menu__nmb img {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+    margin-right: 8px;
+}
+
+.menu__contact p {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 1px;
+}
+
+.header__btn {
+
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    border: none;
+}
+
+.nav__mobile-btn {
+    display: none;
+
+}
+
+.nav__mobile-btn div {
+    width: 32px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #FF7400;;
+}
+
+.header__bottom {
+    padding-top: 203px;
+
+
+}
+
+.header__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    align-items: center;
+}
+
+.header__title {
+    font-family: Tinos;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+
+.header__title:nth-child(2) {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__text {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text::after, .header__text::before {
+    display: block;
+    content: '';
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;;
+}
+
+.header__text::after {
+    margin-left: 10px;
+}
+
+.header__text::before {
+    margin-right: 10px;
+}
+
+.header__wrap .header__btn {
+    margin-top: 21px;
+}
