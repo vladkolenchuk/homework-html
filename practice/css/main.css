@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li + li {
+    margin-left: 20px;
+}
+
+.navbar-light .navbar-nav > li {
+    border: 2px solid transparent;
+    border-radius: 18px;
+}
+
+.navbar-light .navbar-nav > li:hover {
+    border: 2px solid #2E75FF;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #45494F;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+}
+
+.block1__text {
+    margin-top: 105px;
+}
+
+.block1__text h1 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+    margin-bottom: 60px;
+}
+
+.block1__text p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+}
+
+.block2__text h2 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+}
+
+.block2__text p span {
+    font-weight: bold;
+}
+
+.block2__text {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.block3 .container {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    padding: 0;
+}
+
+.block3__main {
+    padding-right: .75rem;
+    padding-left: .75rem;
+
+}
+
+.block3__text {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+
+.block3__text h2 {
+    padding-top: 22px;
+    font-family: BBC Reith Sans;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #FBFDFF;
+}
+
+.block4__text h2 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+    text-transform: uppercase;
+    margin-bottom: 61px;
+}
+
+.block4__text p span {
+    font-weight: bold;
+}
+
+.block4__text {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.block4__text span {
+    font-weight: bold;
+}
+
+.block5 h2 {
+
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    color: #020303;
+    text-align: center;
+}
+
+.block5__item {
+    height: 136px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+
+}
+
+.block5__item span {
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+}
+
+.block5__item img {
+    margin-right: 25px;
+}
+
+.block6 h2 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    color: #020303;
+    text-align: center;
+}
+
+.block6 li {
+    list-style: none;
+
+}
+
+.block6 li + li {
+    margin-top: 20px;
+
+}
+
+.block6 li span {
+    margin-left: 20px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+
+}
+
+.block7 {
+    margin-top: 70px;
+}
+
+.block7 h2 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4.42px;
+    color: #020303;
+    margin-bottom: 32px;
+}
+
+.block7__slider {
+    margin: 0 auto;
+    margin-bottom: 78px;
+}
+
+.block8 h2 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    margin-bottom: 30px;
+}
+
+.block8__item span {
+    width: 350px;
+    height: 64px;
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: 1.42px;
+    color: #FAFBFE;
+}
+
+.block8__item {
+    margin-bottom: 10px;
+}
+
+.block9 {
+    margin-top: 155px;
+
+}
+
+.block9 h2 {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.block9__items p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #464C53;
+}
+
+.block9__btn {
+    text-decoration: none;
+    width: 306px;
+    height: 70px;
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
+    border-radius: 12px;
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.block9__btn:hover {
+    color: #FFFFFF;
+}
+
+.block9__btn span {
+    margin-left: 10px;
+}
+
+.footer {
+    margin-top: 126px;
+}
+
+.footer h3 {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+     color: #A3ADBA;
+}
+.footer__items p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+     color: #9EABBB;
+}
+.footer__items a{
+    text-decoration: none;
+    display: inline-block;
+}
+.footer__items p a{
+    color: #9EABBB;
+    display: block;
+}
+.footer__items p .footer__email{
+    color: #2DA9FB
+}
