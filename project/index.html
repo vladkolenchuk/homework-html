@@ -97,7 +97,7 @@
 <section class="info">
     <div class="container">
         <div class="info__inner d-flex align-items-center justify-content-between">
-            <div class="info__item d-flex align-items-center">
+            <div class="info__item info__item-logo d-flex align-items-center">
                 <div><img src="img/logo%20(2).png" alt="logo"></div>
                 <div class="text d-flex flex-column">
                     <span>AVT-ZAP</span>
@@ -105,7 +105,7 @@
                 </div>
             </div>
 
-            <div class="info__item d-flex align-items-center">
+            <div class="info__item info__item-time ">
                 <div><img src="img/time.svg" alt="logo"></div>
                 <div class="text d-flex flex-column ">
                     <span>Мы работаем: будни - 9:00-21:00</span>
@@ -113,27 +113,30 @@
                 </div>
             </div>
 
-            <div class="info__item d-flex align-items-center">
+            <div class="info__item info__item-addres ">
                 <div><img src="img/mark2.svg" alt="logo"></div>
                 <div class="text d-flex flex-column">
                     <span>Невский пр-т, д. 45</span>
 
                 </div>
             </div>
+            <div class="info__wrap">
+                <div class="info__item ">
+                    <div><img src="img/whatsapp.svg" alt="logo"></div>
+                    <div class="text d-flex flex-column">
+                        <span>Напишите нам в WhatsApp</span>
 
-            <div class="info__item d-flex align-items-center">
-                <div><img src="img/whatsapp.svg" alt="logo"></div>
-                <div class="text d-flex flex-column">
-                    <span>Напишите нам в WhatsApp</span>
-
+                    </div>
                 </div>
-            </div>
 
-            <div class="info__item d-flex align-items-center">
-                <div class="text d-flex flex-column">
-                    <span>+7 383 291 92 86</span>
-                    <a href="#">форма обратной связи</a>
+                <div class="info__item ">
+                    <div class="text d-flex flex-column">
+                        <span>+7 383 291 92 86</span>
+                        <a href="#">форма обратной связи</a>
+                    </div>
                 </div>
+
+
             </div>
         </div>
     </div>
@@ -152,28 +155,31 @@
                 <form action="" method="get">
                     <input class="form-control " type="text" placeholder="Поиск по наименованию или артикулу"
                            aria-label=".form-control-lg">
-                    <button type="search" class="btn btn-primary search__btn">Найти</button>
+                    <button type="search" class="btn btn-primary search__btn">
+                        <span>Найти</span>
+                        <span><img src="img/lasdd.svg" alt="icon"></span>
+                    </button>
                 </form>
             </div>
 
-            <div class="search__items d-flex justify-content-between align-items-center">
+            <div class="search__items">
+                <div class="search__items-wrap">
+                    <button type="button" class="btn search__item d-flex align-items-center">
+                        <img src="img/user.svg" alt="icon">
+                        <span>Войти</span>
+                    </button>
 
-                <button type="button" class="btn search__item d-flex align-items-center">
-                    <img src="img/user.svg" alt="icon">
-                    <span>Войти</span>
-                </button>
 
+                    <button type="button" class="btn search__item d-flex align-items-center">
+                        <img src="img/like1.svg" alt="icon">
+                        <span>Избранное</span>
+                    </button>
 
-                <button type="button" class="btn search__item d-flex align-items-center">
-                    <img src="img/like1.svg" alt="icon">
-                    <span>Избранное</span>
-                </button>
-
-                <button type="button" class="btn search__item d-flex align-items-center">
-                    <img src="img/cart.svg" alt="icon">
-                    <span>В корзине нет товаров</span>
-                </button>
-
+                    <button type="button" class="btn search__item d-flex align-items-center">
+                        <img src="img/cart.svg" alt="icon">
+                        <span>В корзине нет товаров</span>
+                    </button>
+                </div>
 
             </div>
 
@@ -183,92 +189,93 @@
 </section>
 
 <section class="block__slider">
-    <div class="container d-flex ">
-        <div class="slider__inner">
-            <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="slidemax d-flex align-items-center">
-                            <div class="slide__text">
-                                <a href="#" class="slide__name">Сцепление в сборе</a>
-                                <span class="slide__model">0AMCLUTCH</span>
-                                <span class="slide__minprice">14 499,99 ₽</span>
-                                <span class="slide__maxprice">18 550,99 ₽ </span>
-                                <button type="button" class="btn slide__btn">
-                                    <img src="img/cart%202.svg" alt="icon">
-                                    <span>В корзину</span>
-                                </button>
+    <div class="container  ">
+        <div class="container__wrap">
+            <div class="slider__inner">
+                <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slidemax d-flex align-items-center">
+                                <div class="slide__text">
+                                    <a href="#" class="slide__name">Сцепление в сборе</a>
+                                    <span class="slide__model">0AMCLUTCH</span>
+                                    <span class="slide__minprice">14 499,99 ₽</span>
+                                    <span class="slide__maxprice">18 550,99 ₽ </span>
+                                    <button type="button" class="btn slide__btn">
+                                        <img src="img/cart%202.svg" alt="icon">
+                                        <span>В корзину</span>
+                                    </button>
+                                </div>
+                                <img src="img/slider1.png" alt="foto">
                             </div>
-                            <img src="img/slider1.png" alt="foto">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slidemax d-flex align-items-center">
+                                <div class="slide__text">
+                                    <a href="#" class="slide__name">Сцепление в сборе</a>
+                                    <span class="slide__model">0AMCLUTCH</span>
+                                    <span class="slide__minprice">14 499,99 ₽</span>
+                                    <span class="slide__maxprice">18 550,99 ₽ </span>
+                                    <button type="button" class="btn slide__btn">
+                                        <img src="img/cart%202.svg" alt="icon">
+                                        <span>В корзину</span>
+                                    </button>
+                                </div>
+                                <img src="img/slider1.png" alt="foto">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slidemax d-flex align-items-center">
+                                <div class="slide__text">
+                                    <a href="#" class="slide__name">Сцепление в сборе</a>
+                                    <span class="slide__model">0AMCLUTCH</span>
+                                    <span class="slide__minprice">14 499,99 ₽</span>
+                                    <span class="slide__maxprice">18 550,99 ₽ </span>
+                                    <button type="button" class="btn slide__btn">
+                                        <img src="img/cart%202.svg" alt="icon">
+                                        <span>В корзину</span>
+                                    </button>
+                                </div>
+                                <img src="img/slider1.png" alt="foto">
+                            </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="slidemax d-flex align-items-center">
-                            <div class="slide__text">
-                                <a href="#" class="slide__name">Сцепление в сборе</a>
-                                <span class="slide__model">0AMCLUTCH</span>
-                                <span class="slide__minprice">14 499,99 ₽</span>
-                                <span class="slide__maxprice">18 550,99 ₽ </span>
-                                <button type="button" class="btn slide__btn">
-                                    <img src="img/cart%202.svg" alt="icon">
-                                    <span>В корзину</span>
-                                </button>
-                            </div>
-                            <img src="img/slider1.png" alt="foto">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="slidemax d-flex align-items-center">
-                            <div class="slide__text">
-                                <a href="#" class="slide__name">Сцепление в сборе</a>
-                                <span class="slide__model">0AMCLUTCH</span>
-                                <span class="slide__minprice">14 499,99 ₽</span>
-                                <span class="slide__maxprice">18 550,99 ₽ </span>
-                                <button type="button" class="btn slide__btn">
-                                    <img src="img/cart%202.svg" alt="icon">
-                                    <span>В корзину</span>
-                                </button>
-                            </div>
-                            <img src="img/slider1.png" alt="foto">
-                        </div>
-                    </div>
+                    <a class="carousel-control-prev" href="#carouselWithIndicators" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselWithIndicators" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselWithIndicators" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselWithIndicators" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </a>
+
             </div>
-
-        </div>
-        <div class="slider__sells">
-            <div class="sells__item">
-                <span>Акция</span>
-                <div class=" sells__main d-flex ">
-                    <div class="sells__img">
-                        <img src="img/sells1.png" alt="foto">
-                    </div>
-                    <div class="sells__text">
-                        <a href="#" class="sells__title">Обгонная муфта гидротрансформатор</a>
-                        BW-SP-2 SONNAX
-                        <div class="sells__price">
-                            <span>4 430₽</span>
-                            <span>5 430₽</span>
-                            <button type="button" class="btn sell__btn">
-                                <img src="img/cart%202.svg" alt="icon">
-                            </button>
+            <div class="slider__sells">
+                <div class="sells__item">
+                    <span>Акция</span>
+                    <div class=" sells__main d-flex ">
+                        <div class="sells__img">
+                            <img src="img/sells1.png" alt="foto">
+                        </div>
+                        <div class="sells__text">
+                            <a href="#" class="sells__title">Обгонная муфта гидротрансформатор</a>
+                            BW-SP-2 SONNAX
+                            <div class="sells__price">
+                                <span>4 430₽</span>
+                                <span>5 430₽</span>
+                                <button type="button" class="btn sell__btn">
+                                    <img src="img/cart%202.svg" alt="icon">
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-
 
                 <div class="sells__item">
                     <span>Акция</span>
@@ -288,11 +295,12 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
+
+
 </section>
 
 

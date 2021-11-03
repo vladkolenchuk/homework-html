@@ -92,33 +92,35 @@ a {
 
 .info__item {
     height: 71px;
+    display: flex;
+    align-items: center;
 }
 
 .info__item img {
     margin-right: 12px;
 }
 
-.info__item:nth-child(1) span {
+.info__item-logo span {
     font-family: Roboto;
     font-style: normal;
 
     color: #0F2438;
 }
 
-.info__item:nth-child(1) span:nth-child(1) {
+.info__item-logo span:nth-child(1) {
     font-size: 24px;
     line-height: 28px;
     font-weight: bold;
 
 }
 
-.info__item:nth-child(1) span:nth-child(2) {
+.info__item-logo span:nth-child(2) {
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
 }
 
-.info__item:nth-child(2) span {
+.info__item-time span {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -128,7 +130,7 @@ a {
     color: #0F2438;
 }
 
-.info__item:nth-child(3) span {
+.info__item-addres span {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -137,7 +139,7 @@ a {
     color: #0F2438;
 }
 
-.info__item:nth-child(4) span {
+  .info__wrap .info__item:nth-child(1) span {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -147,7 +149,7 @@ a {
     color: #000000;
 }
 
-.info__item:nth-child(5) span {
+.info__wrap .info__item:nth-child(2) span {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -155,8 +157,13 @@ a {
     line-height: 23px;
     color: #0F2438;
 }
-
-.info__item:nth-child(5) a {
+.info__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 353px;
+}
+.info__wrap .info__item:nth-child(2) a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -174,6 +181,18 @@ a {
     width: 164px;
     height: 53px;
     background: #005BB9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.katalog__btn img{
+    margin-right: 12px;
 }
 
 .search input {
@@ -206,15 +225,21 @@ a {
     color: #FFFFFF;
 
 }
-
+.search__btn span:nth-child(2){
+    display: none;
+}
 .search form {
     display: flex;
 }
 
 .search__items {
-    width: 411px;
+    width: 412px;
 }
-
+.search__items-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .search__item {
     width: 120px;
     height: 30px;
@@ -237,7 +262,17 @@ a {
     font-size: 12px;
 }
 
+
+
+
 /*    slider  */
+
+.container__wrap{
+    display: flex
+}
+
+
+
 .block__slider {
     margin-top: 50px;
 }
